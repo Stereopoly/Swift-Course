@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Stopwatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stopwatch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6S8-y4-lIG">
+                                <rect key="frame" x="191" y="20" width="219" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="219" id="fJv-4U-Ofx"/>
+                                    <constraint firstAttribute="height" constant="91" id="fiA-Yh-aZh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvP-oW-Htl">
+                                <rect key="frame" x="16" y="131" width="170" height="170"/>
+                                <color key="backgroundColor" red="0.094847518981637013" green="1" blue="0.19261181485403578" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="Orb-r2-tgW"/>
+                                    <constraint firstAttribute="width" constant="170" id="oM7-tA-doD"/>
+                                </constraints>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZSD-22-zVY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUm-TA-rrO">
+                                <rect key="frame" x="414" y="131" width="170" height="170"/>
+                                <color key="backgroundColor" red="1" green="0.088369515250000003" blue="0.20795440179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="VZI-Ci-gR5"/>
+                                    <constraint firstAttribute="height" constant="170" id="XrN-Xi-QjO"/>
+                                </constraints>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DCd-FY-nVb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5MW-GT-oJX">
+                                <rect key="frame" x="270" y="454" width="60" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.46249442274605024" blue="0.19536461618724166" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ZPa-yX-DDh"/>
+                                    <constraint firstAttribute="width" constant="60" id="z5b-xg-5ki"/>
+                                </constraints>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fH0-IJ-UjP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Piw-Nv-epW">
+                                <rect key="frame" x="238" y="307" width="124" height="124"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="124" id="Usi-hY-siX"/>
+                                    <constraint firstAttribute="height" constant="124" id="ZmL-Uj-3GM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5MW-GT-oJX" firstAttribute="top" secondItem="oUm-TA-rrO" secondAttribute="bottom" constant="153" id="Ill-mW-fCG"/>
+                            <constraint firstItem="oUm-TA-rrO" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Mnr-dl-v3M"/>
+                            <constraint firstItem="oUm-TA-rrO" firstAttribute="top" secondItem="Piw-Nv-epW" secondAttribute="bottom" constant="-300" id="OrE-We-ash"/>
+                            <constraint firstItem="MvP-oW-Htl" firstAttribute="top" secondItem="6S8-y4-lIG" secondAttribute="bottom" constant="20" id="Pwb-XF-aTc"/>
+                            <constraint firstItem="6S8-y4-lIG" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="aJ0-yk-12H"/>
+                            <constraint firstAttribute="centerX" secondItem="Piw-Nv-epW" secondAttribute="centerX" id="hyR-a2-bZ5"/>
+                            <constraint firstAttribute="centerX" secondItem="6S8-y4-lIG" secondAttribute="centerX" id="inl-q3-vgu"/>
+                            <constraint firstAttribute="centerX" secondItem="5MW-GT-oJX" secondAttribute="centerX" id="ivT-4c-2QU"/>
+                            <constraint firstItem="MvP-oW-Htl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="jLD-S5-jEp"/>
+                            <constraint firstItem="Piw-Nv-epW" firstAttribute="top" secondItem="MvP-oW-Htl" secondAttribute="bottom" constant="6" id="yTE-UK-BFY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="timeLabel" destination="Piw-Nv-epW" id="tVy-XS-LQf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
