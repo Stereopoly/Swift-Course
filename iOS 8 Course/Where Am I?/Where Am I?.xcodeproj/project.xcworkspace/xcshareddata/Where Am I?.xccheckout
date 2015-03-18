@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DCBF4684-7FFB-45F3-9B92-26F2D8FAC2A8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Where Am I?</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>71EEA3E8B6316E799A2FD150A5F96884765E6E0C</key>
+		<string>https://github.com/Stereopoly/Swift-Course.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS 8 Course/Where Am I?/Where Am I?.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>71EEA3E8B6316E799A2FD150A5F96884765E6E0C</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Stereopoly/Swift-Course.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>71EEA3E8B6316E799A2FD150A5F96884765E6E0C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>71EEA3E8B6316E799A2FD150A5F96884765E6E0C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swift-Course</string>
+		</dict>
+	</array>
+</dict>
+</plist>
