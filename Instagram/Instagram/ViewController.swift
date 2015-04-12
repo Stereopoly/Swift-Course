@@ -19,7 +19,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         var alert = UIAlertController(title: title, message: error, preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: { action in
             
-            self.dismissViewControllerAnimated(true, completion: nil)
+      //      self.dismissViewControllerAnimated(true, completion: nil)
             
         }))
         
@@ -139,6 +139,9 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
                     
                         println("signed up")
                         
+                        self.displayAlert("Signed Up!", error: "Go ahead and login")
+                        
+                        
                     }
                     else {
                         if let errorString = signupError.userInfo?["error"] as? NSString {
@@ -165,6 +168,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
                         
                         println("logged in")
                         
+                        self.performSegueWithIdentifier("jumpToUserTable", sender: self)
                         
                     }
                     else {
@@ -174,6 +178,9 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
                             error = errorString
                             
                         }
+                        
+                        self.activityIndicator.stopAnimating()
+                        UIApplication.sharedApplication().endIgnoringInteractionEvents()
                         
                         self.displayAlert("Could Not Log In", error: error)
                         
@@ -208,6 +215,18 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        
+        self.navigationController?.navigationBarHidden = true
+        
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        
+        self.navigationController?.navigationBarHidden = false
+        
     }
 
 

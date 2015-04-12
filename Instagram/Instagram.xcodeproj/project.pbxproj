@@ -27,6 +27,10 @@
 		55BC481B1AB92D2C005FD077 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BC481A1AB92D2C005FD077 /* StoreKit.framework */; };
 		55BC481D1AB92D34005FD077 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BC481C1AB92D34005FD077 /* SystemConfiguration.framework */; };
 		55BC48221AB9388C005FD077 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BC48211AB9388C005FD077 /* libsqlite3.dylib */; };
+		55C378AB1ABDF692009EF6BD /* postViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C378AA1ABDF692009EF6BD /* postViewController.swift */; };
+		55C378AD1ABDF758009EF6BD /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55C378AC1ABDF758009EF6BD /* placeholder.jpg */; };
+		55C378AF1ABE1C55009EF6BD /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C378AE1ABE1C55009EF6BD /* feedViewController.swift */; };
+		55C378B11ABE1CF6009EF6BD /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C378B01ABE1CF6009EF6BD /* cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,10 @@
 		55BC481C1AB92D34005FD077 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		55BC481E1AB92D9D005FD077 /* Instagram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instagram-Bridging-Header.h"; sourceTree = "<group>"; };
 		55BC48211AB9388C005FD077 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		55C378AA1ABDF692009EF6BD /* postViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postViewController.swift; sourceTree = "<group>"; };
+		55C378AC1ABDF758009EF6BD /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		55C378AE1ABE1C55009EF6BD /* feedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
+		55C378B01ABE1CF6009EF6BD /* cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,11 +138,15 @@
 		55BC47E31AB92C41005FD077 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				55C378AC1ABDF758009EF6BD /* placeholder.jpg */,
 				55BC48061AB92CB2005FD077 /* Bolts.framework */,
 				55BC48071AB92CB2005FD077 /* Parse.framework */,
 				55BC47E61AB92C41005FD077 /* AppDelegate.swift */,
 				55BC47E81AB92C41005FD077 /* ViewController.swift */,
 				551B30DB1ABBD70D008EF7D3 /* UserTableViewController.swift */,
+				55C378AA1ABDF692009EF6BD /* postViewController.swift */,
+				55C378AE1ABE1C55009EF6BD /* feedViewController.swift */,
+				55C378B01ABE1CF6009EF6BD /* cell.swift */,
 				55BC47EA1AB92C41005FD077 /* Main.storyboard */,
 				55BC47ED1AB92C41005FD077 /* Images.xcassets */,
 				55BC47EF1AB92C41005FD077 /* LaunchScreen.xib */,
@@ -250,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55BC47EC1AB92C41005FD077 /* Main.storyboard in Resources */,
+				55C378AD1ABDF758009EF6BD /* placeholder.jpg in Resources */,
 				55BC47F11AB92C41005FD077 /* LaunchScreen.xib in Resources */,
 				55BC47EE1AB92C41005FD077 /* Images.xcassets in Resources */,
 			);
@@ -269,6 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C378AF1ABE1C55009EF6BD /* feedViewController.swift in Sources */,
+				55C378B11ABE1CF6009EF6BD /* cell.swift in Sources */,
+				55C378AB1ABDF692009EF6BD /* postViewController.swift in Sources */,
 				55BC47E91AB92C41005FD077 /* ViewController.swift in Sources */,
 				551B30DC1ABBD70D008EF7D3 /* UserTableViewController.swift in Sources */,
 				55BC47E71AB92C41005FD077 /* AppDelegate.swift in Sources */,
