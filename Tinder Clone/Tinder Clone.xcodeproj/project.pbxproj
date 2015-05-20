@@ -13,6 +13,21 @@
 		553DCB2D1B08F09A0094C075 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553DCB2C1B08F09A0094C075 /* Images.xcassets */; };
 		553DCB301B08F09A0094C075 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 553DCB2E1B08F09A0094C075 /* LaunchScreen.xib */; };
 		553DCB3C1B08F09A0094C075 /* Tinder_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553DCB3B1B08F09A0094C075 /* Tinder_CloneTests.swift */; };
+		553DCB461B08F4290094C075 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB451B08F4290094C075 /* FacebookSDK.framework */; };
+		553DCB4D1B08F5F50094C075 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB4A1B08F5F50094C075 /* Bolts.framework */; };
+		553DCB4E1B08F5F50094C075 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB4B1B08F5F50094C075 /* Parse.framework */; };
+		553DCB4F1B08F5F50094C075 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB4C1B08F5F50094C075 /* ParseFacebookUtils.framework */; };
+		553DCB511B08F60F0094C075 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB501B08F60F0094C075 /* AudioToolbox.framework */; };
+		553DCB531B08F6140094C075 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB521B08F6140094C075 /* CFNetwork.framework */; };
+		553DCB551B08F61C0094C075 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB541B08F61C0094C075 /* CoreGraphics.framework */; };
+		553DCB571B08F6210094C075 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB561B08F6210094C075 /* CoreLocation.framework */; };
+		553DCB591B08F62E0094C075 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB581B08F62E0094C075 /* libz.dylib */; };
+		553DCB5B1B08F6340094C075 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB5A1B08F6340094C075 /* MobileCoreServices.framework */; };
+		553DCB5D1B08F6390094C075 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB5C1B08F6390094C075 /* QuartzCore.framework */; };
+		553DCB5F1B08F63E0094C075 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB5E1B08F63E0094C075 /* Security.framework */; };
+		553DCB611B08F6460094C075 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB601B08F6460094C075 /* StoreKit.framework */; };
+		553DCB631B08F64D0094C075 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB621B08F64D0094C075 /* SystemConfiguration.framework */; };
+		553DCB651B08FA6C0094C075 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553DCB641B08FA6C0094C075 /* FBSDKCoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,22 @@
 		553DCB351B08F09A0094C075 /* Tinder CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tinder CloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		553DCB3A1B08F09A0094C075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		553DCB3B1B08F09A0094C075 /* Tinder_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_CloneTests.swift; sourceTree = "<group>"; };
+		553DCB451B08F4290094C075 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		553DCB471B08F5530094C075 /* Tinder Clone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tinder Clone-Bridging-Header.h"; sourceTree = "<group>"; };
+		553DCB4A1B08F5F50094C075 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		553DCB4B1B08F5F50094C075 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		553DCB4C1B08F5F50094C075 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		553DCB501B08F60F0094C075 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		553DCB521B08F6140094C075 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		553DCB541B08F61C0094C075 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		553DCB561B08F6210094C075 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		553DCB581B08F62E0094C075 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		553DCB5A1B08F6340094C075 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		553DCB5C1B08F6390094C075 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		553DCB5E1B08F63E0094C075 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		553DCB601B08F6460094C075 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		553DCB621B08F64D0094C075 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		553DCB641B08FA6C0094C075 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +74,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553DCB631B08F64D0094C075 /* SystemConfiguration.framework in Frameworks */,
+				553DCB611B08F6460094C075 /* StoreKit.framework in Frameworks */,
+				553DCB5F1B08F63E0094C075 /* Security.framework in Frameworks */,
+				553DCB5D1B08F6390094C075 /* QuartzCore.framework in Frameworks */,
+				553DCB5B1B08F6340094C075 /* MobileCoreServices.framework in Frameworks */,
+				553DCB591B08F62E0094C075 /* libz.dylib in Frameworks */,
+				553DCB571B08F6210094C075 /* CoreLocation.framework in Frameworks */,
+				553DCB551B08F61C0094C075 /* CoreGraphics.framework in Frameworks */,
+				553DCB531B08F6140094C075 /* CFNetwork.framework in Frameworks */,
+				553DCB511B08F60F0094C075 /* AudioToolbox.framework in Frameworks */,
+				553DCB651B08FA6C0094C075 /* FBSDKCoreKit.framework in Frameworks */,
+				553DCB461B08F4290094C075 /* FacebookSDK.framework in Frameworks */,
+				553DCB4E1B08F5F50094C075 /* Parse.framework in Frameworks */,
+				553DCB4F1B08F5F50094C075 /* ParseFacebookUtils.framework in Frameworks */,
+				553DCB4D1B08F5F50094C075 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +105,16 @@
 		553DCB171B08F09A0094C075 = {
 			isa = PBXGroup;
 			children = (
+				553DCB621B08F64D0094C075 /* SystemConfiguration.framework */,
+				553DCB601B08F6460094C075 /* StoreKit.framework */,
+				553DCB5E1B08F63E0094C075 /* Security.framework */,
+				553DCB5C1B08F6390094C075 /* QuartzCore.framework */,
+				553DCB5A1B08F6340094C075 /* MobileCoreServices.framework */,
+				553DCB581B08F62E0094C075 /* libz.dylib */,
+				553DCB561B08F6210094C075 /* CoreLocation.framework */,
+				553DCB541B08F61C0094C075 /* CoreGraphics.framework */,
+				553DCB521B08F6140094C075 /* CFNetwork.framework */,
+				553DCB501B08F60F0094C075 /* AudioToolbox.framework */,
 				553DCB221B08F09A0094C075 /* Tinder Clone */,
 				553DCB381B08F09A0094C075 /* Tinder CloneTests */,
 				553DCB211B08F09A0094C075 /* Products */,
@@ -80,6 +136,11 @@
 				553DCB251B08F09A0094C075 /* AppDelegate.swift */,
 				553DCB271B08F09A0094C075 /* ViewController.swift */,
 				553DCB291B08F09A0094C075 /* Main.storyboard */,
+				553DCB641B08FA6C0094C075 /* FBSDKCoreKit.framework */,
+				553DCB451B08F4290094C075 /* FacebookSDK.framework */,
+				553DCB4A1B08F5F50094C075 /* Bolts.framework */,
+				553DCB4B1B08F5F50094C075 /* Parse.framework */,
+				553DCB4C1B08F5F50094C075 /* ParseFacebookUtils.framework */,
 				553DCB2C1B08F09A0094C075 /* Images.xcassets */,
 				553DCB2E1B08F09A0094C075 /* LaunchScreen.xib */,
 				553DCB231B08F09A0094C075 /* Supporting Files */,
@@ -91,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				553DCB241B08F09A0094C075 /* Info.plist */,
+				553DCB471B08F5530094C075 /* Tinder Clone-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -340,9 +402,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tinder",
+					Clone,
+				);
 				INFOPLIST_FILE = "Tinder Clone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tinder Clone/Tinder Clone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +420,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tinder",
+					Clone,
+				);
 				INFOPLIST_FILE = "Tinder Clone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tinder Clone/Tinder Clone-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +486,7 @@
 				553DCB411B08F09A0094C075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		553DCB421B08F09A0094C075 /* Build configuration list for PBXNativeTarget "Tinder CloneTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +495,7 @@
 				553DCB441B08F09A0094C075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
